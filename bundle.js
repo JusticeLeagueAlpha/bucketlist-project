@@ -79,6 +79,7 @@ webpackJsonp([0],[
 	  // entriesEvents.onCompleteEntries();
 
 	  $('.get-show').hide();
+	  $('.show-my-completed').hide();
 	  $('.entries-container').html(viewLanding());
 
 	  $('.select-sign-up').on('click', function () {
@@ -1933,6 +1934,7 @@ webpackJsonp([0],[
 	  console.log(app.user);
 	  $('#sign-in').clearForm();
 	  $('.get-show').show();
+	  $('.show-my-completed').show();
 	};
 
 	var signOutSuccess = function signOutSuccess() {
@@ -1955,7 +1957,7 @@ webpackJsonp([0],[
 	var Handlebars = __webpack_require__(10);
 	function __default(obj) { return obj && (obj.__esModule ? obj["default"] : obj); }
 	module.exports = (Handlebars["default"] || Handlebars).template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
-	    return "<div class=\"landing\">\n  <h1>Welcome to Bubble Bucket!</h1>\n  <h3>we all have a dream so don't burst anyones bubble!</h3>\n  <h3>click <span class=\"all-bubbles-button get-index\">All Bubbles</span> to see what we're dreaming of..</h3>\n  <!-- <h3></h3> -->\n\n</div>\n";
+	    return "<div class=\"landing col-md-12 text-center\">\n  <h1>Welcome to Bubble Bucket!</h1>\n  <h3>we all have a dream so don't burst anyones bubble!</h3>\n  <h3>click <span class=\"all-bubbles-button get-index\">All Bubbles</span> to see what we're dreaming of..</h3>\n  <!-- <h3></h3> -->\n\n</div>\n";
 	},"useData":true});
 
 /***/ },
